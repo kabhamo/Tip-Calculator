@@ -1,3 +1,4 @@
+
 body {
     padding: 5%;
 }
@@ -51,11 +52,25 @@ h3 {
 }
 
 /* #############Select Tip %############## */
+
+#bill-input, #people-input{
+    font-size: 24px;
+    font-weight:400;
+    font-family: 'Space Mono', monospace;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #tip-btn {
     font-family: 'Space Mono', monospace;
     background-color: hsl(183, 100%, 15%);
     width: 100%;
+    text-align: center;
     border-color: transparent;
+    font-size: 20px;
     font-weight: 600;
 }
 

@@ -32,6 +32,7 @@ function updateTotal(){
     $("#total").html("$"  + parseFloat(totalAmount).toFixed(2));
 }
 
+
 $('#reset-btn').click(function(){
     $("#tip_amount").html("$0.00");
     $("#total").html("$0.00");
@@ -41,6 +42,26 @@ $('#reset-btn').click(function(){
     tipAmount = 0;
     tipAmountPersone = 0;
     totalAmount = 0;
+});
+
+
+//######### icons stuff //#########
+$('#people-input').on('keyup', function() {
+    var input = $(this);
+    if(input.val().length === 0) {
+        input.addClass('empty');
+    } else {
+        input.removeClass('empty');
+    }
+});
+
+$('#bill-input').on('keyup', function() {
+    var input = $(this);
+    if(input.val().length === 0) {
+        input.addClass('empty');
+    } else {
+        input.removeClass('empty');
+    }
 });
 
 
