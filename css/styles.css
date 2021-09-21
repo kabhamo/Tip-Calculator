@@ -1,0 +1,82 @@
+body {
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+}
+
+/* ########################### */
+.sections-col {
+    padding: 3%;
+}
+
+.section1 {
+    padding: 3%;
+}
+
+.section2 {
+    padding: 3%;
+}
+
+.section3 {
+    padding: 3%;
+}
+
+.jumbo-col {
+    padding: 5%;
+}
+
+.mainContainer {
+    margin: 0;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.jo4 {
+    background: transparent;
+}
+
+.tit-jum {
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-reset {
+    margin-top: 10%;
+}
+
+.lead {
+    color: hsl(189, 41%, 97%);
+    opacity: 0.7;
+}
+
+/* #############Select Tip %############## */
+#tip-btn {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(183, 100%, 15%);
+    width: 100%;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+#tip-btn:hover {
+    background-color: hsl(171, 94%, 32%);
+}
+
+#tip-btn::after {
+    background-color: hsl(171, 94%, 32%);
+}
+
+#custom-btn {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(183, 19%, 56%);
+    color: hsl(183, 100%, 15%);
+    width: 100%;
+    border-color: transparent;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+#custom-btn:hover {
+    background-color: hsl(171, 94%, 32%);
+}
